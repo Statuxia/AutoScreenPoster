@@ -22,6 +22,7 @@ Made by FQGM
 exe файлом можно пользоваться без ввода токена.
 
 VirusTotal: https://www.virustotal.com/gui/file/9df12433a93de7c23fe54db834512b592f80468058566dbf16861cf52869bdd5/detection
+
 Video: https://youtu.be/MuKf4mOMBvw
 
 -----------
