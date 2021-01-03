@@ -48,8 +48,13 @@ while True:
             new_screen = True
             total_screens = len(listdir(screenshots))
             path = fr"{screenshots}\{listdir(screenshots)[-1]}"
-            sleep(1)
-            items = client.upload_from_path(path, config=None, anon=True)
+            ready = False
+            while not ready:
+                try:
+                    items = client.upload_from_path(path, config=None, anon=True)
+                    ready = True
+                except:
+                    ready = False
             copy(items["link"])
             print(items["link"])
             Beep(300, 100)
