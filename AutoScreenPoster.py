@@ -1,7 +1,7 @@
 from os import getlogin, listdir
 from pyperclip import copy
 from imgurpython import ImgurClient
-from keyboard import is_pressed
+from keyboard import wait
 from time import sleep
 from winsound import Beep
 login = getlogin()
@@ -39,19 +39,18 @@ print(f"Выбран путь {screenshots}\n")
 
 total_screens = len(listdir(screenshots))
 while True:
-    if is_pressed("F2"):
-        new_screen = False
-        while not new_screen:
-            if total_screens >= len(listdir(screenshots)):
-                continue
-            else:
-                new_screen = True
-                total_screens = len(listdir(screenshots))
-                path = fr"{screenshots}\{listdir(screenshots)[-1]}"
-                sleep(1)
-                items = client.upload_from_path(path, config=None, anon=True)
-                print("Скриншот отправлен на imgur.")
-                copy(items["link"])
-                print("Ссылка скопирована.")
-                Beep(300, 100)
-                Beep(200, 50)
+    wait("F2")
+    new_screen = False
+    while not new_screen:
+        if total_screens >= len(listdir(screenshots)):
+            continue
+        else:
+            new_screen = True
+            total_screens = len(listdir(screenshots))
+            path = fr"{screenshots}\{listdir(screenshots)[-1]}"
+            sleep(1)
+            items = client.upload_from_path(path, config=None, anon=True)
+            copy(items["link"])
+            print(items["link"])
+            Beep(300, 100)
+            Beep(200, 50)
