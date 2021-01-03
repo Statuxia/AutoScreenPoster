@@ -21,7 +21,7 @@ Made by FQGM
 В py файле нужно ввести свои токены из имгура.
 exe файлом можно пользоваться без ввода токена.
 
-VirusTotal: https://www.virustotal.com/gui/file/b978da702828a9be6326bb973c9dc42717adbdb576025b1bebdccbcd16089389/detection
+VirusTotal: https://www.virustotal.com/gui/file/0b504ac33a6f19d0b96b210696b65544b98263f86bb59a8f61deea5a7d62aa2d/detection
 
 Video: https://youtu.be/MuKf4mOMBvw
 
