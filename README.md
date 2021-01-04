@@ -18,10 +18,19 @@ Made by FQGM
 -----
 -----------
 
-В py файле нужно ввести свои токены из имгура.
-exe файлом можно пользоваться без ввода токена.
+exe файлом можно пользоваться только на 64 битной системе.
 
-VirusTotal: https://www.virustotal.com/gui/file/9df12433a93de7c23fe54db834512b592f80468058566dbf16861cf52869bdd5/detection
+для запуска py файла вам нужно скачать следующие библиотеки:
+
+pip install pyperclip
+
+pip install requests
+
+pip install keyboard
+
+pip install pillow
+
+VirusTotal: https://www.virustotal.com/gui/file/e584c1094b86fa8f64e0f5e8cd359824f4cd1522a0f39175fa0ea303751c5b3d/detection
 
 Video: https://youtu.be/MuKf4mOMBvw
 
