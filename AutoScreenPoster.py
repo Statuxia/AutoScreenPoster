@@ -1,14 +1,14 @@
 from os import getlogin, listdir
 from pyperclip import copy
-from imgurpython import ImgurClient
+from requests import put
+from io import BytesIO
+from PIL import Image
 from keyboard import wait
-from time import sleep
 from winsound import Beep
+
 login = getlogin()
 screenshots = fr"C:\Users\{login}\AppData\Roaming\.vimeworld\minigames\screenshots"
-client_id = 'you_imgur_client_id'
-client_secret = 'you_imgur_secret_id'
-client = ImgurClient(client_id, client_secret)
+url = "https://image.vimetools.cf/upload"
 print("""
 
  █████╗     ██████╗   ██████╗    
@@ -46,16 +46,20 @@ while True:
             continue
         else:
             new_screen = True
-            total_screens = len(listdir(screenshots))
-            path = fr"{screenshots}\{listdir(screenshots)[-1]}"
+    path = fr"{screenshots}\{listdir(screenshots)[-1]}"
+    ready = False
+    while not ready:
+        try:
+            main = Image.open(path)
+            raw_image = BytesIO()
+            main.save(raw_image, format='PNG')
+            ready = True
+        except:
             ready = False
-            while not ready:
-                try:
-                    items = client.upload_from_path(path, config=None, anon=True)
-                    ready = True
-                except:
-                    ready = False
-            copy(items["link"])
-            print(items["link"])
-            Beep(300, 100)
-            Beep(200, 50)
+    res = put(url, data=raw_image.getvalue(), headers={"user-agent": "Vime Tools"},
+              timeout=10000)
+    copy(f"https://image.vimetools.cf/get/{str(res.content)[2:-1]}")
+    print(f"https://image.vimetools.cf/get/{str(res.content)[2:-1]}")
+    total_screens = len(listdir(screenshots))
+    Beep(300, 100)
+    Beep(200, 50)
