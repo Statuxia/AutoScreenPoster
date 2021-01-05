@@ -53,8 +53,6 @@ VirusTotal: https://www.virustotal.com/gui/file/38e5809fa9fad552c9c80fa4ce04d310
 
 Video: https://youtu.be/AGz-indwjac
 
-Google Drive (если через гит не скачивается): https://drive.google.com/file/d/1k-yruC5VntqSkxFx00CG24HFVu0BY6nb/view?usp=sharing
-
 -----------
 V0.5
 ---
