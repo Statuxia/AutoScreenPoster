@@ -49,7 +49,7 @@ pip install keyboard
 
 pip install pillow
 
-VirusTotal: https://www.virustotal.com/gui/file/38e5809fa9fad552c9c80fa4ce04d3103adb5785133259f1dae5752235dc2071/detection
+VirusTotal: https://www.virustotal.com/gui/file/2bbfb741dfbf509dc2a69c01f53a3a42d07bdfa4e76339affd5cb503f3ca2fab/detection
 
 Video: https://youtu.be/AGz-indwjac
 
