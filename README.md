@@ -49,7 +49,7 @@ pip install pillow
 
 VirusTotal: https://www.virustotal.com/gui/file/38e5809fa9fad552c9c80fa4ce04d3103adb5785133259f1dae5752235dc2071/detection
 
-Video: https://youtu.be/MuKf4mOMBvw
+Video: https://youtu.be/AGz-indwjac
 
 -----------
 V0.5
