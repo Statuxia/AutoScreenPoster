@@ -4,7 +4,7 @@ Made by FQGM
 
 -------------
 
-Как пользоваться:
+Как пользоваться (GUI расписано в программе.):
 ---
 
 1)Выбираем способ создания скриншота (Vime - через скриншот вайма | Fast - через скриншот экрана)
@@ -39,21 +39,19 @@ Fast5:Получаете ссылку на ваш скриншот.
 
 exe файлом можно пользоваться только на 64 битной системе.
 
-для запуска py файла вам нужно скачать следующие библиотеки:
+VirusTotal (GUI): https://www.virustotal.com/gui/file/25d18758c50667ff7211c5b2a93c4661ca9c3f796fbd514714364a862c224092/detection
 
-pip install pyperclip
+VirusTotal (Console): https://www.virustotal.com/gui/file/f3ef0fadb3a93c560e7a61e5e94b4562d3153bdba6ba49b44d6a12a5e1b536b5/detection
 
-pip install requests
+Video (GUI): 
 
-pip install keyboard
-
-pip install pillow
-
-VirusTotal: https://www.virustotal.com/gui/file/2bbfb741dfbf509dc2a69c01f53a3a42d07bdfa4e76339affd5cb503f3ca2fab/detection
-
-Video: https://youtu.be/AGz-indwjac
+Video (Console): https://youtu.be/AGz-indwjac
 
 -----------
+V0.6
+---
+Добавлена GUI версия. Весит многовато, но это из-за несовершенства компиляции pyinstaller'a. Можно уменьшить вес, но думаю ~100 мб не очень-то и много.
+
 V0.5
 ---
 Добавлен выбор через что будет создана ссылка (через скриншот вайма или скриншот экрана).
