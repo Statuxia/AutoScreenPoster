@@ -9,7 +9,7 @@ GUI version: https://mega.nz/file/kApyVBSI#4wCBGN871l3S02ivUbKUYhedPmcVYauGcpN_S
 -------------
 Как пользоваться (GUI):
 ---
-в программе вкладка "Помощь"
+В программе вкладка "Помощь"
 
 Как пользоваться (Console):
 ---
