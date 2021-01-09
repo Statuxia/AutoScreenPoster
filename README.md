@@ -50,9 +50,9 @@ VirusTotal (GUI): https://www.virustotal.com/gui/file/25d18758c50667ff7211c5b2a9
 
 VirusTotal (Console): https://www.virustotal.com/gui/file/f3ef0fadb3a93c560e7a61e5e94b4562d3153bdba6ba49b44d6a12a5e1b536b5/detection
 
-Video (GUI): 
+Video (GUI): https://youtu.be/EH9_pJl_Bvc
 
-Video (Console): https://youtu.be/AGz-indwjac
+Video (Console): https://youtu.be/PaBgi2vnaVA
 
 -----------
 V0.6
