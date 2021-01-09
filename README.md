@@ -2,6 +2,10 @@
 
 Made by FQGM
 
+Console version: https://mega.nz/file/dVpUCT5D#yv631PAcKyFf-ENw8FJbMDy-I0PaCTl_UvftZex0Je4
+
+GUI version: https://mega.nz/file/kApyVBSI#4wCBGN871l3S02ivUbKUYhedPmcVYauGcpN_SfYksd0
+
 -------------
 
 Как пользоваться (GUI расписано в программе.):
