@@ -7,8 +7,11 @@ Console version: https://mega.nz/file/dVpUCT5D#yv631PAcKyFf-ENw8FJbMDy-I0PaCTl_U
 GUI version: https://mega.nz/file/kApyVBSI#4wCBGN871l3S02ivUbKUYhedPmcVYauGcpN_SfYksd0
 
 -------------
+Как пользоваться (GUI):
+---
+в программе вкладка "Помощь"
 
-Как пользоваться (GUI расписано в программе.):
+Как пользоваться (Console):
 ---
 
 1)Выбираем способ создания скриншота (Vime - через скриншот вайма | Fast - через скриншот экрана)
