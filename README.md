@@ -46,7 +46,7 @@ Fast5:Получаете ссылку на ваш скриншот.
 
 exe файлом можно пользоваться только на 64 битной системе.
 
-VirusTotal (GUI): https://www.virustotal.com/gui/file/25d18758c50667ff7211c5b2a93c4661ca9c3f796fbd514714364a862c224092/detection
+VirusTotal (GUI): https://www.virustotal.com/gui/file/2fc6b5a2890090ec42f96d46e2cec0ff0991ca5461dda40cca5d93acb32c65fa/detection
 
 VirusTotal (Console): https://www.virustotal.com/gui/file/f3ef0fadb3a93c560e7a61e5e94b4562d3153bdba6ba49b44d6a12a5e1b536b5/detection
 
