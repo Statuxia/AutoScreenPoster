@@ -2,9 +2,9 @@
 
 Made by FQGM
 
-Console version: https://mega.nz/file/dVpUCT5D#yv631PAcKyFf-ENw8FJbMDy-I0PaCTl_UvftZex0Je4
+Console version: https://mega.nz/file/FV5gSZRS#nOwPOtrlIPhAkpqvspI8SPRIJw_iEoWQ-zzkMSox8fo
 
-GUI version: https://mega.nz/file/kApyVBSI#4wCBGN871l3S02ivUbKUYhedPmcVYauGcpN_SfYksd0
+GUI version: https://mega.nz/file/YYwQWbBK#8T5i-73AM_XZZsxjt6KLrnIe2kVkQgpS1XvdHeAOXeg
 
 -------------
 Как пользоваться (GUI):
